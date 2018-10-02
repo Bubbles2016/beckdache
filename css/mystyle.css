@@ -41,7 +41,14 @@ ul.dropdown-menu li a, ul.mega-menu li ul li a {
 	color: black !important;
 }
 
-.entry--title a,
-.entry--more a {
+.entry--title a {
 	color: black;
+}
+
+.entry--more a {
+	color: white;
+}
+
+.view_all {
+	text-align: center;
 }
