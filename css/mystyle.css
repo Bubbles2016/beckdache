@@ -2,3 +2,37 @@
 	width: 70px;
 	height: 70px
 }
+
+.header-topbar .topbar {
+	background: #124364 !important;
+}
+
+.slider-2 .btn--white, .slider-4 .btn--white {
+	color: #124364 !important;
+}
+
+.navbar-nav > li.has-dropdown > ul.dropdown-menu {
+	background-color: #124364 !important;
+}
+
+ul.dropdown-menu li a, ul.mega-menu li ul li a {
+	width: 160px;
+}
+
+.about-2 .btn--dark-gradient {
+	background: #124364 !important;
+}
+
+.btn--secondary {
+	background: white !important;
+	border-color: transparent !important;
+	color: black !important;
+}
+
+.about-2 .contact-box, .about-2 .contat-heading {
+	background: #124364 !important;
+}
+
+.btn--gradient {
+	background: #124364 !important;
+}
