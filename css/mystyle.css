@@ -36,3 +36,12 @@ ul.dropdown-menu li a, ul.mega-menu li ul li a {
 .btn--gradient {
 	background: #124364 !important;
 }
+
+.heading .heading--subtitle {
+	color: black !important;
+}
+
+.entry--title a,
+.entry--more a {
+	color: black;
+}
