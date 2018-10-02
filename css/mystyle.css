@@ -52,3 +52,32 @@ ul.dropdown-menu li a, ul.mega-menu li ul li a {
 .view_all {
 	text-align: center;
 }
+
+.bg-theme {
+	background: #124364 !important;
+}
+
+.widget-content img {
+	width: 5rem;
+	height: 5rem;
+}
+
+.backtop {
+	background-color: #124364 !important;
+}
+
+.addpadd {
+	margin-left: 1.5rem;
+}
+
+.addpadd p {
+	color: white;
+}
+
+.addrightpadd {
+	margin-right:8.5rem;
+}
+
+.addrightpadd p {
+	color: white;
+}
