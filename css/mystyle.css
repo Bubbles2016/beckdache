@@ -104,3 +104,23 @@ ul.dropdown-menu li a, ul.mega-menu li ul li a {
 	background-color: #124364 !important;
 	opacity: 0.5;
 }
+
+.about-2 .contact-box .contat-heading h3 {
+	color: #b8b0ad !important;
+}
+
+.case-item .case--cat a {
+	color: #124364 !important;
+}
+
+.about--text.pr-60 {
+	text-align: justify !important;
+}
+
+.feature-card-desc {
+	text-align: justify !important;
+}
+
+.entry--bio p {
+	text-align: justify !important;
+}
