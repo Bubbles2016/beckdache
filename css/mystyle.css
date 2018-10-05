@@ -240,7 +240,29 @@ ul.dropdown-menu li > a:hover, ul.mega-menu li a:active, ul.mega-menu li a:focus
 	padding-bottom: 10px;
 }
 
-.case--img img {
-	max-width: 200px;
-	max-height: 200px;
+/*#case2 .case--img img {
+	max-width: 150px;
+	max-height: 150px;
+}*/
+
+#primary-menu img {
+	display: inline-block;
+}
+
+
+#primary-menu span {
+	color: black;
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    #primary-menu span {
+		display: inline-block;
+		color: #124364;
+	}
+}
+
+#case2 .case-item-container {
+	max-width: 150px;
+	max-width: 150px;
 }
