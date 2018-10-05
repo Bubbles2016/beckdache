@@ -17,10 +17,12 @@
 
 ul.dropdown-menu li a, ul.mega-menu li ul li a {
 	width: 160px;
+	color: #ccc;
 }
 
 .about-2 .btn--dark-gradient {
 	background: #124364 !important;
+	transition: background-color 1s;
 }
 
 .btn--secondary {
@@ -56,10 +58,18 @@ ul.dropdown-menu li a, ul.mega-menu li ul li a {
 .bg-theme {
 	background: #124364 !important;
 }
+.widget-about {
+	text-align: center;
+}
+
+.widget-about p {
+	font-size: 1.5rem;
+}
 
 .widget-content img {
 	width: 5rem;
 	height: 5rem;
+	text-align: center;
 }
 
 .backtop {
@@ -123,4 +133,114 @@ ul.dropdown-menu li a, ul.mega-menu li ul li a {
 
 .entry--bio p {
 	text-align: justify !important;
+}
+
+.header-topbar .topbar .contact-info i, 
+.topbar .contact-info,
+.header-topbar .topbar .contact-social,
+.header-topbar .topbar .contact-social a  {
+	color: #cccccc !important;
+}
+
+.header-light .navbar .module .module-icon i, 
+.header-light .navbar .navbar-nav > li > a {
+	font-weight: 300 !important;
+}
+
+.header-light .navbar .navbar-nav > li > .menu-item:hover::before, .header-light .navbar .navbar-nav > li.active > .menu-item:before {
+	height: 1px !important;
+}
+
+.module--search-box .form-search {
+	border-bottom: 2px solid #cccccc !important; 
+}
+
+::selection {
+	background-color: transparent !important;
+	color: black;
+}
+
+.btn--white:active, .btn--white:focus, .btn--white:hover {
+	background-color: #124364 !important;
+	border-color: #124364 !important;
+	color: white !important;
+}
+
+.slider {
+	height: 85vh;
+}
+
+.about-2 .contact-box .contat-heading h3 {
+	color: #ccc !important;
+}
+
+.btn--secondary.btn--inverse:active, .btn--secondary.btn--inverse:focus, .btn--secondary.btn--inverse:hover  {
+	background-color: #ccc !important;
+	color: white !important;
+}
+
+#featured1 {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+section
+{
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+
+.pb-60 {
+	padding-bottom: 30px !important;
+}
+
+.heading .heading-2 .mb-50 .text--center .two {
+	text-align: center !important;
+}
+
+.btn {
+	width: 145px;
+	transition: background-color 1s;
+}
+
+.btn--gradient:hover {
+	background-color: white !important;
+	border-style: solid;
+	border-color: #124364;
+	color: #124364;
+}
+
+ul.dropdown-menu li > a:active, 
+ul.dropdown-menu li > a:focus, 
+ul.dropdown-menu li > a:hover, ul.mega-menu li a:active, ul.mega-menu li a:focus, ul.mega-menu li a:hover {
+	color: #ccc;
+}
+
+.view_all {
+	padding-top: 20px !important;
+}
+
+.feature-card .feature-card-icon i {
+	color: #124364;
+}
+
+.case-item .case--title h4 a:hover {
+	color: #124364;
+}
+
+.about-2 .btn--dark-gradient:hover {
+	border-style: solid;
+    background: white !important;
+    color: #124364 !important;
+    border-color: #124364;
+}
+
+.entry--date {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.case--img img {
+	max-width: 200px;
+	max-height: 200px;
 }
