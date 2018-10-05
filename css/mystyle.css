@@ -266,3 +266,13 @@ ul.dropdown-menu li > a:hover, ul.mega-menu li a:active, ul.mega-menu li a:focus
 	max-width: 150px;
 	max-width: 150px;
 }
+
+.owl-prev span,
+.owl-next span
+{
+	border:#124364;
+	font-size: 24px;
+}
+
+
+
