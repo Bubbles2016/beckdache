@@ -22,7 +22,10 @@ ul.dropdown-menu li a, ul.mega-menu li ul li a {
 
 .about-2 .btn--dark-gradient {
 	background: #124364 !important;
-	transition: background-color 1s;
+	transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 .btn--secondary {
@@ -161,9 +164,9 @@ ul.dropdown-menu li a, ul.mega-menu li ul li a {
 }
 
 .btn--white:active, .btn--white:focus, .btn--white:hover {
-	background-color: #124364 !important;
-	border-color: #124364 !important;
-	color: white !important;
+	background-color: white !important;
+	border-color: white !important;
+	color: #124364 !important;
 }
 
 .slider {
@@ -176,7 +179,7 @@ ul.dropdown-menu li a, ul.mega-menu li ul li a {
 
 .btn--secondary.btn--inverse:active, .btn--secondary.btn--inverse:focus, .btn--secondary.btn--inverse:hover  {
 	background-color: #ccc !important;
-	color: white !important;
+	color: black !important;
 }
 
 #featured1 {
@@ -200,7 +203,10 @@ section
 
 .btn {
 	width: 145px;
-	transition: background-color 1s;
+	transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 .btn--gradient:hover {
@@ -274,5 +280,129 @@ ul.dropdown-menu li > a:hover, ul.mega-menu li a:active, ul.mega-menu li a:focus
 	font-size: 24px;
 }
 
+footer .widget-newsletter button:hover {
+	background-color: white;
+	color: #124364;
+}
 
+footer .widget-newsletter button {
+	color: white;
+}
 
+footer .widget-links ul li a:hover {
+	color: #fff;
+}
+
+.contact-info a {
+	color: #fff;
+}
+
+.contact-info a:hover {
+	color: white;
+}
+
+#slider {
+	padding-top: 0 !important;
+}
+
+.contact-box .btn {
+	line-height: 40px !important;
+	height: 45px !important;
+	width: 155px;
+}
+
+.btn--gradient {
+	line-height: 25px;
+    padding: 10px 0px;
+    border: 3px solid transparent;
+}
+
+.addMargin {
+	margin-bottom: 10px;
+}
+
+.entry--content {
+	padding: 10px 25px;
+}
+
+.owl-prev,
+.owl-next {
+	border-radius: 50%;
+	color: #124364;
+	position: relative;
+	/*top: -150px;*/
+}
+
+.owl-prev span,
+.owl-next span {
+	font-size: 28px;
+}
+
+.topbar a .contact-info,
+.header-topbar .topbar .contact-info i,
+.header-topbar .topbar .contact-social a {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.topbar a:hover .contact-info,
+.header-topbar .topbar a:hover .contact-info i { color: #fff !important; }
+.header-topbar .topbar .contact-social a:hover { color: #fff !important; }
+.menu-caret {
+    display: inline !important;
+    font-size: 10px;
+    margin-left: 5px;
+    color: #222 !important;
+}
+.module-cancel:hover, .slider .btn--video:hover, .slider .btn--video:hover i { color: #ccc !important; }
+.slider .btn--video:hover i { border-color: #ccc !important; }
+.btn--video { padding-left: 60px; }
+.case-item .case--title h4 { text-align: center; }
+.case-img-readmore a, .case-item .case--cat a { color: #fff !important; }
+.case-img-readmore a span { font-size: 12px; }
+.owl-nav {
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    top: 50%;
+    width: 100%;
+}
+.owl-nav button {
+    border-radius: 100%;
+    color: #fff;
+    background-color: #124364;
+    border: none;
+    width: 44px;
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    opacity: 0.5;
+}
+.owl-nav button:hover {
+    opacity: 1;
+}
+.owl-nav button span {
+    margin-top: -3px;
+    display: inline-block;
+}
+.owl-nav button:first-child { left: -20px; }
+.owl-nav button:last-child { right: -20px; }
+.footer--copyright { padding: 10px 0px; }
+.footer--copyright p { margin-bottom: 0px; }
+.featured-1 .feature-card .feature-card-icon {
+    display: block;
+    margin: 0px auto 19px;
+}
+.feature-card .feature-card-title { text-align: center; }
+.feature-card .feature-card-content .btn { margin: 0px auto; display: block; }
+@media only screen and (max-width: 991px) {
+    .header-topbar .navbar .navbar-brand { line-height: 72px; }
+    .navbar-nav .dropdown-menu li a { color: #fff; }
+    .heading-2 .heading--title { padding: 0px 15px; }
+}

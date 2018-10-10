@@ -204,6 +204,7 @@
             dots: $Carousel.data('dots'),
             center: $Carousel.data('center'),
             dotsSpeed: $Carousel.data('speed'),
+            items: $Carousel.data("items"),
             responsive: {
                 0: {
                     items: 1,
