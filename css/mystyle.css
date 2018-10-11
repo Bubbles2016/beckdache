@@ -1,3 +1,5 @@
+/* Index*/
+
 #logo_bekdache {
 	width: 70px;
 	height: 70px
@@ -406,3 +408,19 @@ footer .widget-links ul li a:hover {
     .navbar-nav .dropdown-menu li a { color: #fff; }
     .heading-2 .heading--title { padding: 0px 15px; }
 }
+
+/* Submenu.html*/
+.widget-categories li.active a, .widget-categories li a:hover {
+	background: #124364;
+}
+
+#case3 h5 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.noLeftPadding {
+	padding-left: 0;
+}
+
+
