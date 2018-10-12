@@ -423,4 +423,53 @@ footer .widget-links ul li a:hover {
 	padding-left: 0;
 }
 
+.submenu_item button {
+	width: 48%;
+	height: 3rem;
+	margin-bottom: 5px;
+	background-color: grey;
+	color: white;
+}
 
+.submenu_item button:hover {
+	background-color: #124364;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 375px)  {
+	.test {
+
+	}
+
+}
+
+/*Contact Us */
+.page-title .breadcrumb a:hover {
+	color: white;
+}
+
+#page-title {
+	background-color: #124364;
+	padding-bottom: 40px !important;
+}
+
+.btn--primary {
+	color: white;
+	background-color: #124364;
+	border-color: #124364;
+}
+
+.btn--primary:hover {
+	color: #124364;
+	background-color: white;
+	border-radius: 3px;
+	border-color: #124364 !important;
+}
+
+
+.form-control {
+	border: none;
+}
+
+.contact-info .two a {
+	color: #124364 !important;
+}
