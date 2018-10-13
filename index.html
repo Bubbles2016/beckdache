@@ -80,8 +80,8 @@
 					<li class="has-dropdown">
     					<a href="submenu.html" data-target ="submenu.html" data-hover="dropdown" class="dropdown-toggle menu-item">Help Center&nbsp;<span class="fa fa-caret-down menu-caret"></span></a>
     					<ul class="dropdown-menu">
-        					<li>
-            					<a href="page-about.html">Online Help</a>
+        					<li id="myBtn">
+            					<a href="#">Online Help</a>
         					</li>
         
         					<li>
@@ -107,10 +107,54 @@
 					</li> 
 
 					<li class="has-dropdown mega-dropdown">
-						<a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">Contact Us</a>
+						<a href="contact.html" data-target="contact.html" class="dropdown-toggle menu-item">Contact Us</a>
 					</li>                
 				</ul>
                 
+                <!-- The Modal -->
+				<div id="myModal" class="modal">
+					<!-- Modal content -->
+  					<div class="modal-content">
+    					<span class="close">&times;</span>
+    					<div class="row">
+            				<div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+                				<form class="mb-0">
+                    				<div class="row">
+                        				<div class="col-sm-12 col-md-4 col-lg-4">
+                            				<input type="text" class="form-control" name="contact-name" id="contact-name" placeholder="Your Name" required="">
+                        				</div>
+                        				<div class="col-sm-12 col-md-4 col-lg-4">
+                            				<input type="email" class="form-control" name="contact-email" id="contact-email" placeholder="Email">
+                        				</div>
+                        			
+                        				<div class="col-sm-12 col-md-4 col-lg-4">
+                            				<input type="text" class="form-control" name="contact-phone" id="contact-phone" placeholder="Phone">
+                        				</div>
+                    				</div>
+                    
+                    				<div class="row">
+                    					<div class="col-sm-12 col-md-12 col-lg-12">
+                            				<textarea class="form-control" name="contact-message" id="contact-message" rows="2" placeholder="Message"></textarea>
+                        				</div>
+                    				</div>
+
+                    				<div class="row">
+                    					<div class="col-sm-12 col-md-12 col-lg-12">
+                        					<input type="submit" value="Submit Request" name="submit" class="btn btn--primary">
+                    					</div>
+                    				</div>
+                    
+                    				<div class="row">
+                        				<div class="col-sm-12 col-md-12 col-lg-12">
+                            				<div class="contact-result"></div>
+                        				</div>
+                    				</div>
+                				</form>
+            				</div>
+        				</div>
+  					</div>
+				</div>
+
                 <div class="module-container">
                 	<!-- Module Search -->
 					<div class="module module-search pull-left">
