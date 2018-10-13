@@ -514,3 +514,37 @@ footer .widget-links ul li a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+/*content page*/
+.titleContPage h4 a:hover {
+	color: #124364 !important;
+}
+
+.entry--footer a:hover {
+	color: #124364 !important;
+}
+
+.makeLower {
+	position: relative;
+	top: 12px;
+	font-size: inherit;
+}
+
+/*listing.html*/
+.text .entry--content {
+	padding-left: 0 !important;
+}
+
+.entry--title h4 a:hover {
+	color: #124364 !important;
+}
+
+.pagination > .active > a, 
+.pagination > li:hover > a, 
+.pagination > li > a:focus, 
+.pagination > li > a:hover, 
+.pagination > li > span:focus, 
+.pagination > li > span:hover  {
+	background-color: #124364 !important;
+	border-style: none;
+}
