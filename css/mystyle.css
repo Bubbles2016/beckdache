@@ -548,3 +548,27 @@ footer .widget-links ul li a:hover {
 	background-color: #124364 !important;
 	border-style: none;
 }
+
+/*Approach*/
+.entry--more a:hover {
+	color: #124364 !important;
+}
+
+/*FAQ*/
+.widget-info {
+	background-color: #124364;
+}
+
+.info--icon a {
+	color: white;
+}
+
+.accordion .card .card-heading a {
+	color: #124364;
+}
+
+.accordion .card-heading .card-link:after {
+	background-color: #124364;
+	border-style: none;
+}
+

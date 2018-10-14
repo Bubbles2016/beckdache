@@ -45,15 +45,47 @@ window.onclick = function(event) {
 
 var protection = document.getElementById("protection");
 var whichPlan = document.getElementById("whichPlan");
-protection.onclick = function() {
+var doihave = document.getElementById("doihave");
+var whatif = document.getElementById("Whatif");
+var anycontracts = document.getElementById("anycontracts");
+
+var whatare = document.getElementById("whatare");
+var howdoes = document.getElementById("howdoes");
+var recurring = document.getElementById("recurring");
+
+protection.onclick = function(event) {
+  event.preventDefault();
   whichPlan.style.display = "none";
+  doihave.style.display = "none";
+  whatif.style.display = "none";
+  anycontracts.style.display = "none";
+  howdoes.style.display = "none";
+  whatare.style.display = "block"
+
 }
 
-$('.photoAlbum').magnificPopup({
-  delegate: 'a', // child items selector, by clicking on it popup will open
-  type: 'image',
-  enabled: true
-});
+licensed.onclick = function(event) {
+  event.preventDefault();
+  whichPlan.style.display = "none";
+  doihave.style.display = "none";
+  whatif.style.display = "none";
+  anycontracts.style.display = "none";
+  whatare.style.display = "none";
+  howdoes.style.display = "block";
+}
+
+recurring.onclick = function(event) {
+  event.preventDefault();
+  whichPlan.style.display = "none";
+  doihave.style.display = "none";
+  whatif.style.display = "none";
+  anycontracts.style.display = "none";
+  whatare.style.display = "none";
+  howdoes.style.display = "none";
+  recurring.style.display = "block"
+}  
+
+
 
 
 
