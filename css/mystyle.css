@@ -572,3 +572,10 @@ footer .widget-links ul li a:hover {
 	border-style: none;
 }
 
+/*clients*/
+.gallery-filter li a.active-filter, .gallery-filter li a:hover {
+	color: #124364;
+}
+.gallery-item .gallery--hover .gallery--action {
+	background-color: #124364 !important;
+}
