@@ -425,7 +425,7 @@ footer .widget-links ul li a:hover {
 
 .submenu_item button {
 	width: 48%;
-	height: 3rem;
+	height: 5rem;
 	margin-bottom: 5px;
 	background-color: grey;
 	color: white;
@@ -433,6 +433,7 @@ footer .widget-links ul li a:hover {
 
 .submenu_item button:hover {
 	background-color: #124364;
+	cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 375px)  {
@@ -547,6 +548,10 @@ footer .widget-links ul li a:hover {
 .pagination > li > span:hover  {
 	background-color: #124364 !important;
 	border-style: none;
+}
+
+img.mfp-img {
+	max-width: 50% !important;
 }
 
 /*Approach*/

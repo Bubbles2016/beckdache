@@ -49,11 +49,11 @@ protection.onclick = function() {
   whichPlan.style.display = "none";
 }
 
-$('.photoAlbum').magnificPopup({
+/*$('.photoAlbum').magnificPopup({
   delegate: 'a', // child items selector, by clicking on it popup will open
   type: 'image',
   enabled: true
-});
+});*/
 
 
 
