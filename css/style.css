@@ -1091,14 +1091,14 @@ section {
 	left: 0;
 }
 
-.pos-vertical-center {
+/*.pos-vertical-center {
 	position: relative;
 	top: 50%;
 	-webkit-transform: perspective(1px) translateY(-50%);
 	-moz-transform: perspective(1px) translateY(-50%);
 	-o-transform: perspective(1px) translateY(-50%);
 	transform: perspective(1px) translateY(-50%);
-}
+}*/
 
 .height-700 {
 	height: 700px !important;
@@ -4963,11 +4963,15 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 .gallery-filter li a {
 	font-family: 'Montserrat';
 	color: #333333;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 700;
 	line-height: 1;
-	margin-right: 24px;
 	text-transform: capitalize;
+	display: block;
+	padding: 10px 15px;
+	margin: 0 5px;
+	border: 1px solid #ccc;
+	min-width: 100px
 }
 
 .gallery-filter li:last-child a {
@@ -5025,9 +5029,10 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 }
 
 .gallery-zoom a {
-	display: inline-block;
+	/*display: inline-block;
 	width: 20px;
-	height: 20px;
+	height: 20px;*/
+	text-align: center;
 }
 
 .icon--zoom {
@@ -5037,7 +5042,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 .icon--zoom:before {
 	position: absolute;
 	content: "";
-	left: -9px;
+	left: 0px;
 	top: 9px;
 	width: 20px;
 	height: 2px;
@@ -5047,7 +5052,7 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 .icon--zoom:after {
 	position: absolute;
 	content: "";
-	left: 0;
+	left: 9px;
 	top: 0;
 	width: 2px;
 	height: 20px;
